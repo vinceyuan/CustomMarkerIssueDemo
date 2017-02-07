@@ -42,24 +42,13 @@ export default class CustomMarkerIssueDemo extends Component <void, void, State>
     switch (type) {
       case 0:
         return (
-          <MapView.Marker
-            key="1"
-            coordinate={coordinate}
-            anchor={{x: 0.65, y: 1}}
-            >
-            <Image
-              source={imageSrc}
-            />
+          <MapView.Marker key="1" coordinate={coordinate} anchor={{x: 0.65, y: 1}}>
+            <Image source={imageSrc}/>
           </MapView.Marker>
         );
       case 1:
         return (
-          <MapView.Marker
-            key="2"
-            coordinate={coordinate}
-            anchor={{x: 0.65, y: 1}}
-            image={imageSrc}
-          />
+          <MapView.Marker key="2" coordinate={coordinate} anchor={{x: 0.65, y: 1}} image={imageSrc}/>
         );
       case 2:
         return (
