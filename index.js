@@ -45,7 +45,7 @@ export default class CustomMarkerIssueDemo extends Component <void, void, State>
           <MapView.Marker
             key="1"
             coordinate={coordinate}
-            anchor={{x: 0.5, y: 0.5}}
+            anchor={{x: 0.65, y: 1}}
             >
             <Image
               source={imageSrc}
@@ -57,7 +57,7 @@ export default class CustomMarkerIssueDemo extends Component <void, void, State>
           <MapView.Marker
             key="2"
             coordinate={coordinate}
-            anchor={{x: 0.5, y: 0.5}}
+            anchor={{x: 0.65, y: 1}}
             image={imageSrc}
           />
         );
